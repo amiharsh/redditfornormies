@@ -4,7 +4,7 @@ export const StyledSearchbar = styled.div`
 	display: flex;
 	flex-direction: row;
 	float: left;
-	width: 14rem;
+	width: 20rem;
 	margin-left: 6rem;
 	@media (max-width: ${({ theme }) => theme.breakpoint}) {
 		${(props) => {
